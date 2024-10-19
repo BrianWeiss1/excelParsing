@@ -1,0 +1,25 @@
+.small {
+    text-size="small";
+}
+.medium {
+    text-size="medium";
+}
+.centered {
+    text-align: center;
+    image-align: center;
+}
+body {
+    background: #ADD8E6;
+}
+.large {
+    text-size="large";
+}
+.text, image {
+    padding: 50px;
+}
+.imageFront {
+    width: 500px;
+    justify-content: center; /* Center horizontally */
+    display: flex;
+    align-items: center; /* Center vertically if the container has a specific height */
+}
